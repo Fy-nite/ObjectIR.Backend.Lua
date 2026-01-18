@@ -1,4 +1,4 @@
-namespace ObjectIR.Backend.Lua.Parser;
+namespace ObjectIR.Ast.Parser;
 
 public sealed class TextIrParseException : Exception
 {

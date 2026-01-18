@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84098286-c9e4-412d-b2b1-ab0408c09e6d" name="Changes" comment="" />
+    <list default="true" id="84098286-c9e4-412d-b2b1-ab0408c09e6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/AssignmentStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/AstTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/BinaryExpression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/BreakStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/CallExpression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/DoStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/ForGenericStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/ForNumericStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/FunctionExpression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/IfStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/LocalStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/RepeatStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/ReturnStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/WhileStatement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Block.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/CaptureList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/LuaResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ObjectIR.Backend.Lua/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ObjectIR.Backend.Lua/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.AST/AST/AstNodes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.AST/Ast/AstNodes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.AST/Parser/TextIRParseException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.AST/Parser/TextIRParseException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.AST/Parser/TextIRParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.AST/Parser/TextIRParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.AST/obj/Debug/net10.0/ObjectIR.AST.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.AST/obj/Debug/net10.0/ObjectIR.AST.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.AST/obj/Debug/net10.0/ObjectIR.AST.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.AST/obj/Debug/net10.0/ObjectIR.AST.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/ObjectIR.Backend.Lua.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/ObjectIR.Backend.Lua.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/OIRParserTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/Debug/net10.0/ObjectIR.Backend.Lua.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/ObjectIR.Backend.Lua.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/ObjectIR.Backend.Lua.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/AST.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/BooleanLiteral.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/BooleanLiteral.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/CallExpression.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/ExpressionStatement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/ExpressionStatement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/Identifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/Identifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/IndexExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/IndexExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/LocalStatement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/MemberExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/MemberExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/NilLiteral.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/NilLiteral.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/NumberLiteral.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/NumberLiteral.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/ParenthesizedExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/ParenthesizedExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/StringLiteral.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/StringLiteral.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/TableExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/TableExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/VarargLiteral.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/VarargLiteral.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/Debug/net10.0/ObjectIR.Backend.Lua.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/Debug/net10.0/ObjectIR.Backend.Lua.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/Debug/net10.0/ObjectIR.Backend.Lua.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/Debug/net10.0/ObjectIR.Backend.Lua.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/ObjectIR.Backend.Lua.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/ObjectIR.Backend.Lua.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectIR.Backend.Lua/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/CallExpression.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/Identifier.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/MemberExpression.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/ParenthesizedExpression.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/AST/TableExpression.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e7f701bc05fe4c4c938e43df30078ba3dba800/39/67041c46/NullReferenceException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/Ast/FunctionExpression.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/BaseWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/Block.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/CaptureList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/Interfaces/IWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectIR.Backend.Lua/LuaTranspiler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -27,12 +91,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "365af03d-dade-412c-8c65-b0d1c11a2a93.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/int/Downloads/Hytale-linux",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="TaskManager">
@@ -43,7 +117,12 @@
       <option name="presentableId" value="Default" />
       <updated>1768593901023</updated>
       <workItem from="1768593903674" duration="2022000" />
-      <workItem from="1768595992030" duration="8683000" />
+      <workItem from="1768595992030" duration="16204000" />
+      <workItem from="1768648900837" duration="3666000" />
+      <workItem from="1768689113422" duration="6390000" />
+      <workItem from="1768695703516" duration="67000" />
+      <workItem from="1768695805880" duration="2764000" />
+      <workItem from="1768773705801" duration="1065000" />
     </task>
     <servers />
   </component>
@@ -71,5 +150,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

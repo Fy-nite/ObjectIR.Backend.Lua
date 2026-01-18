@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObjectIR.Backend.Lua.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71b16b1f5a59aaf2a176c19d2b95610751e54c81")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObjectIR.Backend.Lua.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObjectIR.Backend.Lua.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

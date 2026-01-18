@@ -393,6 +393,29 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "ObjectIR.AST/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/ObjectIR.AST.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObjectIR.AST.dll": {}
+        }
+      },
+      "ObjectIR.Backend.Lua/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ObjectIR.AST": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ObjectIR.Backend.Lua.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObjectIR.Backend.Lua.dll": {}
+        }
       }
     }
   },
@@ -903,11 +926,23 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ObjectIR.AST/1.0.0": {
+      "type": "project",
+      "path": "../ObjectIR.AST/ObjectIR.AST.csproj",
+      "msbuildProject": "../ObjectIR.AST/ObjectIR.AST.csproj"
+    },
+    "ObjectIR.Backend.Lua/1.0.0": {
+      "type": "project",
+      "path": "../ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj",
+      "msbuildProject": "../ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.NET.Test.Sdk >= 17.14.1",
+      "ObjectIR.AST >= 1.0.0",
+      "ObjectIR.Backend.Lua >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
@@ -937,7 +972,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.AST/ObjectIR.AST.csproj": {
+              "projectPath": "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.AST/ObjectIR.AST.csproj"
+            },
+            "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj": {
+              "projectPath": "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua/ObjectIR.Backend.Lua.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

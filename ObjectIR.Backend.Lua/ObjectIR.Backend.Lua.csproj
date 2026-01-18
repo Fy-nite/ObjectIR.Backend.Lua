@@ -7,4 +7,7 @@
         <RootNamespace>ObjectIR.Backend.Lua51</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\ObjectIR.AST\ObjectIR.AST.csproj" />
+    </ItemGroup>
 </Project>

@@ -17,5 +17,10 @@
     <ItemGroup>
         <Using Include="Xunit"/>
     </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\ObjectIR.Backend.Lua\ObjectIR.Backend.Lua.csproj" />
+        <ProjectReference Include="..\ObjectIR.AST\ObjectIR.AST.csproj" />
+    </ItemGroup>
 
 </Project>

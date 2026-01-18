@@ -1,7 +1,6 @@
 using System.Text;
-using ObjectIR.Backend.Lua.AST;
 
-namespace ObjectIR.Backend.Lua.Parser;
+namespace ObjectIR.Ast.Parser;
 
 public static class TextIrParser
 {

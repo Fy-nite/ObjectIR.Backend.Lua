@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "ObjectIR.AST/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/ObjectIR.AST.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObjectIR.AST.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ObjectIR.AST/1.0.0": {
+      "type": "project",
+      "path": "../ObjectIR.AST/ObjectIR.AST.csproj",
+      "msbuildProject": "../ObjectIR.AST/ObjectIR.AST.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "ObjectIR.AST >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/int/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.AST/ObjectIR.AST.csproj": {
+              "projectPath": "/home/int/RiderProjects/ObjectIR.Backend.Lua/ObjectIR.AST/ObjectIR.AST.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
