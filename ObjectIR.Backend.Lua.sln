@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectIR.Backend.Lua", "ObjectIR.Backend.Lua\ObjectIR.Backend.Lua.csproj", "{483AE490-8AF2-4902-A5BB-7F6AA97F84A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectIR.Backend.Lua.Tests", "ObjectIR.Backend.Lua.Tests\ObjectIR.Backend.Lua.Tests.csproj", "{45CC8B0B-8DFC-48A4-9938-ACDA23F055E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectIR.AST", "ObjectIR.AST\ObjectIR.AST.csproj", "{70D75813-E47B-4FB0-AABD-6419D0432340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483AE490-8AF2-4902-A5BB-7F6AA97F84A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483AE490-8AF2-4902-A5BB-7F6AA97F84A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483AE490-8AF2-4902-A5BB-7F6AA97F84A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483AE490-8AF2-4902-A5BB-7F6AA97F84A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CC8B0B-8DFC-48A4-9938-ACDA23F055E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CC8B0B-8DFC-48A4-9938-ACDA23F055E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CC8B0B-8DFC-48A4-9938-ACDA23F055E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CC8B0B-8DFC-48A4-9938-ACDA23F055E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D75813-E47B-4FB0-AABD-6419D0432340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D75813-E47B-4FB0-AABD-6419D0432340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D75813-E47B-4FB0-AABD-6419D0432340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D75813-E47B-4FB0-AABD-6419D0432340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
